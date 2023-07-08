@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="shortcut icon" href="./pic1.jpg">
+    <link rel="stylesheet" href="./gmezone.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="gamezone.html"><img src="./video-game-logo-template-with-joystick_23-2147824456.jpg" alt=""
+                    srcset="" style="height:80px ; width:100px;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li class="#"><i class="fa fa-home"></i>HOME</a> </li>
+                    <li> <a href="about.html"><i class="fa fa-user"></i>ABOUT</a></li>
+                    <li> <a href="course.html"><i class="fa fa-newspaper-o"></i>COURSE</a> </li>
+                    <li><a href="categories.html"><i class="fa fa-th-large"></i>GAMES</a></li>
+                    <li> <a href="event.html"><i class="fa fa-gamepad"></i>EVENTS</a></li>
+                    <li> <a href="contact.html"><i class="fa fa-phone"></i>CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- ----------------about us content------------- -->
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are providing the Gaming Traing Center</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dolor aliquam quos, reiciendis sequi
+                    vitae dolore explicabo nemo perspiciatis eius facere. Autem, obcaecati omnis? Facere, placeat
+                    delectus est iste inventore repudiandae incidunt voluptatum vero nisi consequatur eveniet quod
+                    similique illum ullam quo! Error temporibus consequatur commodi numquam officiis optio eum eligendi!
+                    Assumenda sunt rem provident earum eveniet? Excepturi consequuntur quam alias modi cupiditate,
+                    libero quaerat? Harum explicabo earum corrupti quod dolor aspernatur, veniam quo aut exercitationem
+                    praesentium error, odio iusto! Ut sapiente, similique veritatis blanditiis odio hic commodi maxime
+                    esse.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div>
+                <img src="./about3.png" >
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------------footer------------ -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique obcaecati corporis sequi facilis veniam
+            minima aliquid ducimus.<br>Tempore fuga veniam quidem architecto quae sit perferendis sed cupiditate
+            quisquam maxime.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made this website <i class="fa fa-heart-o"></i> by Sambhab Kumar Sahoo</p>
+    </section>
+
+    <!-- ------javascript for toggle menu---- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
